@@ -41,6 +41,7 @@ st.markdown("""
 
 # ---------- LOAD MODEL ----------
 from tensorflow.keras.models import load_model
+
 model = load_model("house_price_model.h5")
 scaler_x = joblib.load("scaler_x.pkl")
 scaler_y = joblib.load("scaler_y.pkl")
